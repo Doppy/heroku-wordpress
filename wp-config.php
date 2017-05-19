@@ -20,12 +20,6 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-// postgres://htnjpoixvjxoen:d7fd200eef8209077f88ef56c104d6c79a1629b08ff2ac0fa88bc109c2511d0c@ec2-23-23-111-171.compute-1.amazonaws.com:5432/dbk47ol5ohld7t
-// echo '<pre/>';
-// $dbstr = 'mysql://l6xao4cdd77t0ppo:ptnzjw7trr9ish2v@s54ham9zz83czkff.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/al9dklz9gdyewmsj';
-// print_r(parse_url($dbstr));
-// die;
-
 $db = parse_url($_ENV["JAWSDB_URL"]);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
